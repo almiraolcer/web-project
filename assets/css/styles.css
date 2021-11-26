@@ -1,6 +1,13 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+/*=============== Home Ball Animation ===============*/
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+}
+
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 0rem; /*56px*/
