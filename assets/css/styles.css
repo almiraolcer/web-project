@@ -7,7 +7,10 @@
   border-radius: 100%;
   opacity: 0.7;
 }
-
+#ourTeamHeader{
+  font-size:xx-large;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 0rem; /*56px*/
