@@ -451,8 +451,12 @@ the website, in dark theme
 }
 
 /*=============== STEPS ===============*/
+.steps{
+  margin: 0px;
+}
+
 .steps__bg{
-  background-color: var(--first-color);
+  background-color: #583D72;
   padding: 3rem 2rem 2rem;
   border-radius: 1rem;
 }
@@ -460,6 +464,7 @@ the website, in dark theme
 .steps__container{
   gap: 2rem;
   padding-top: 1rem;
+ 
 }
 
 .steps__title{
@@ -470,9 +475,18 @@ the website, in dark theme
   background-color: var(--container-color);
   padding: 2.5rem 3rem 2rem 1.5rem;
   border-radius: 1rem;
+  text-align: center;
+  
+  
+
+}
+.steps__card:hover{
+  background-color: #FFC996;
+  transition: 0.3s;
+  transform: translateY(-.50rem);
 }
 
-.steps__card-number{
+/*.steps__card-number{
   display: inline-block;
   background-color: var(--first-color-alt);
   color: #FFF;
@@ -481,7 +495,7 @@ the website, in dark theme
   font-size: var(--h2-font-size);
   margin-bottom: var(--mb-1-5);
   transition: .3s;
-}
+}*/
 
 .steps__card-title{
   font-size: var(--h3-font-size);
@@ -490,11 +504,25 @@ the website, in dark theme
 
 .steps__card-description{
   font-size: var(--small-font-size);
+
 }
 
-.steps__card:hover .steps__card-number{
-  transform: translateY(-.25rem);
+
+.steps__button{
+  background-color:  #FF8474;
+  margin: auto;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 10px;
+ 
+
 }
+.steps__button:hover{
+  background-color: #9F5F80;
+
+}
+
+
 
 /*=============== PRODUCTS ===============*/
 .product__description{
