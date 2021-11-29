@@ -11,6 +11,14 @@
   font-size:xx-large;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+/*=============== Our Team Page ===============*/
+.OurTeamImg{
+  height: 450px;
+  width: 460px;
+}
+.MoreButton{
+  color:#583D72;
+}
 
 /*=============== VARIABLES CSS ===============*/
 :root {
