@@ -205,6 +205,7 @@ the website, in dark theme
 }
 
 /*=============== NAV ===============*/
+
 .nav{
   height: var(--header-height);
   display: flex;
@@ -216,6 +217,13 @@ the website, in dark theme
 .nav__toggle,
 .nav__close{
   color: var(--title-color);
+}
+
+.nav_icon{
+  display: inline-flex;
+  justify-content: center;
+  margin-bottom: 6px;
+  
 }
 
 .nav__logo{
