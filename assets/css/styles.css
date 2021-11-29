@@ -11,6 +11,7 @@
   font-size:xx-large;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 0rem; /*56px*/
@@ -456,7 +457,7 @@ the website, in dark theme
 }
 
 .steps__bg{
-  background-color: #583D72;
+  background-color: #8f79a3;
   padding: 3rem 2rem 2rem;
   border-radius: 1rem;
 }
@@ -481,7 +482,7 @@ the website, in dark theme
 
 }
 .steps__card:hover{
-  background-color: #FFC996;
+  background-color: #f3cba5;
   transition: 0.3s;
   transform: translateY(-.50rem);
 }
@@ -509,7 +510,7 @@ the website, in dark theme
 
 
 .steps__button{
-  background-color:  #FF8474;
+  background-color:  #f19286;
   margin: auto;
   display: flex;
   margin-top: 20px;
