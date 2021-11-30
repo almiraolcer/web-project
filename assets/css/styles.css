@@ -1142,21 +1142,25 @@ the website, in dark theme
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  
+
 }
 
 /* Modal Content */
 .modal-content {
   position: relative;
-  background-color: #fefefe;
   margin: auto;
   padding: 0;
   border: 1px solid #888;
-  width: 80%;
+  width: 700px;
+  height: 400px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
   animation-name: animatetop;
   animation-duration: 0.4s
+
+
 }
 
 /* Add Animation */
@@ -1187,14 +1191,18 @@ the website, in dark theme
 
 .modal-header {
   padding: 2px 16px;
-  background-color: #5cb85c;
+  background-color: #9DAB86;
   color: white;
+  
 }
 
-.modal-body {padding: 2px 16px;}
+.modal-body {padding: 2px 16px;
+  
+
+}
 
 .modal-footer {
   padding: 2px 16px;
-  background-color: #5cb85c;
+  background-color: #9DAB86;
   color: white;
 }
