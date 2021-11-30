@@ -19,6 +19,13 @@
 .MoreButton{
   color:#583D72;
 }
+#backButton{
+  border: transparent;
+  color:#583D72;
+}
+#backButton:hover{
+  background-color:#c3b9cd;
+}
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -559,7 +566,7 @@ the website, in dark theme
 
 .product__img{
   position: relative;
-  width: 120px;
+  width: 180px;
   justify-self: center;
   margin-bottom: var(--mb-0-75);
   transition: .3s;
