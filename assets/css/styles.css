@@ -580,18 +580,21 @@ the website, in dark theme
 }
 
 .product__title{
-  margin-bottom: .25rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+
 }
 
 .product__button{
   position: absolute;
-  right: 0;
-  bottom: 0;
+  left: 0px;
   background-color: var(--first-color);
   color: #FFF;
   padding: .25rem;
   border-radius: .35rem;
   font-size: 1.15rem;
+  
 }
 
 .product__button:hover{
