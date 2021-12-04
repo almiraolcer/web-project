@@ -11,6 +11,10 @@
   font-size:xx-large;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+#explore{
+  background-color: #b1bdb69c;
+}
 /*=============== Our Team Page ===============*/
 .OurTeamImg{
   height: 450px;
