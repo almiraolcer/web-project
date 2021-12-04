@@ -23,44 +23,9 @@
         
       }
 
-      
-
       *{
         box-sizing: border-box;
       }
-
-      .h2style{
-        color: white;
-        position: absolute;
-        margin-top: 100px;
-        margin-left: 80px;
-        size: 5rem;
-        text-align: center;
-        font-family: 'Quicksand', sans-serif;
-        font-size: 70px;
-        z-index: 2;
-        
-      }
-
-      .button_activities{
-        padding: 10px;
-        background-color: hsl(16deg 100% 55%);
-        border-radius: 15px;
-        color: blanchedalmond;
-        position: absolute;
-        justify-content: center;
-        margin-top: 335px;
-        margin-left: 140px;
-        z-index: 1;
-        
-      }
-
-      .button_activities:hover{
-        background-color:hsl(16deg 100% 65%);
-        transition: 0.3s;
-      }
-
-      
 </style>
 </head>
 <body style="background-color: hsl(264deg 100% 95%); ">
@@ -108,12 +73,18 @@
         text-align: center; 
         padding: auto;
         position: relative;
-        /*top:3.3rem
-        overflow:none/hidden*/
       }
+
+      #buttonId_activities{
+            background-color: hsl(16deg 100% 50%);
+            color: white;
+            border-radius: 15px;
+            padding:7px;
+      }
+
       #buttonId_activities:hover{
         transition: 0.3s;
-        background-color: hsl(16deg 100% 80%);
+        background-color: hsl(16deg 100% 60%);
       }
 
       @media screen and (max-width: 576px){
@@ -155,7 +126,6 @@
       border-radius: 45px;
       margin-left: 2rem;
       margin-right: 2rem;
-      
       ">
         
             <img id="banner-img"  src="assets/img/4.gif" alt="" > 
@@ -168,41 +138,33 @@
                   "> YOGA <br> FESTIVAL </h2 >
                 <h4 style="font-family: 'Jost', sans-serif;
                 color:white"> is Coming! </h4>
-              <a href="#down"> <button id="buttonId_activities"
-                style="background-color: hsl(16deg 100% 50%);
-                color: white;
-                border-radius: 15px;
-                padding:7px;"
-                > Sign Up Right now! </button > </a>   
+              <a href="#down"> <button id="buttonId_activities"> Sign Up Right now! </button > </a>   
 
-          </div>
+            </div>
       </div>
   
-  <div style="margin: 60px;
+    <div style="margin: 60px;
   font-family: 'Roboto Condensed', sans-serif;
-  text-align: center;
-  
-    ">
+  text-align: center;">
       <h4 > When you've completed this course, you'll have daily actions and reflections to help you remember who you are, why you're here and where you're headed.  </h4>
-  
     </div> 
 
-    <div class="activities_container">
-      <div class="steps__card"> </div>
-        a
-
-      </div>
-      <div class="steps__card"> </div>
-        a
-
-      </div>
-      <div class="steps__card"> </div>
-        a
-
+    <div class="container">
+      <div class="row_activities">
+        <div class="col-sm">
+          One of three columns
+        </div>
+        <div class="col-sm">
+          One of three columns
+        </div>
+        <div class="col-sm">
+          One of three columns
+        </div>
       </div>
     </div>
 
-    </div>
+  </div>
+    
   </section>
 
   <div style="background-color: #F3F1F5;
@@ -216,6 +178,45 @@
 </div>
 
 <section id="part2">
+
+  <style>
+    #form{
+      width: 50%;
+      display: inline-block;
+    }
+
+    #form_img{
+      width: 49%; 
+      display: inline-block;
+      justify-content: center;
+    }
+    .form-group{
+      padding: 20px;
+    }
+    .buttonClass_activities{
+            background-color: hsl(16deg 100% 50%);
+            color: white;
+            border-radius: 15px;
+            padding:7px;
+      }
+
+      .buttonClass_activities:hover{
+        transition: 0.3s;
+        background-color: hsl(16deg 100% 60%);
+      }
+
+    @media screen and (max-width: 576px){
+        #form{
+          width: 100%;
+        }
+
+        #form_img{ 
+        margin-left: 110px ;
+    }
+      }
+  </style>
+
+
  <div class="container" style=" background-color: white; 
  border-bottom-left-radius: 45px; 
  border-bottom-right-radius: 45px; 
@@ -227,7 +228,21 @@
 
   <div id="down">
 
-    It is down
+    <form id="form">
+      <div class="form-group" >
+        <label style="color: #59197b" for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label style="color: #59197b"  for="exampleInputPassword1">Phone Number</label>
+        <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
+      </div>
+    
+      <button style="margin-left: 20px;" type="submit" class="buttonClass_activities">Submit</button>
+    </form>
+
+    <img id="form_img" src="assets/img/5.gif" alt="">
   
   </div>
 </div>
