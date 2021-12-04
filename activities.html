@@ -15,11 +15,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Quicksand:wght@300&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
 
     <style>
       html{
         scroll-behavior: smooth;
+        
+      }
+
+      
+
+      *{
+        box-sizing: border-box;
       }
 
       .h2style{
@@ -52,16 +59,19 @@
         background-color:hsl(16deg 100% 65%);
         transition: 0.3s;
       }
+
+      
 </style>
 </head>
+<body style="background-color: hsl(264deg 100% 95%); ">
 
   <!--=============== Boostrap navbar ===============-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
         <div style="text-align:justify;"> 
-            <i style="color: #66806A;" class="fas fa-spa"></i>
+          <img src="assets/img/icon.png" alt="icon" style="width:45px;height:40px;" class="nav_icon" >
             <!-- <i class="fa fa-spinner fa-spin"></i> -->
-            <a class="navbar-brand" style="font-family:Arial, Helvetica, sans-serif; color: #66806A" href="#">Falmi</a>
+            <a class="navbar-brand" style="font-family:Arial, Helvetica, sans-serif; color: #66806A" href="index.html">Falmi</a>
         </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -78,41 +88,150 @@
             <a class="nav-link" style="color:#879a78" href="activities.html">Activities</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true" style="color:#879a78">Explore</a>
+            <a class="nav-link" style="color:#879a78" href="explore.html">Explore</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <!--==================== BODY ====================-->
-  <body style="background-color: hsl(264deg 100% 95%);">
-<div style="  background-color: white; border-radius: 45px; margin: 2rem; padding: 100px; padding-top: 40px; position: relative ">
-  
-    <div style= "  background-color: hsl(268deg 100% 81%); width: 900px; height: 450px; border-radius: 35px; margin: auto;" >
-      
-      <h2 class="h2style"> YOGA <br> FESTIVAL </h2 >
-      <h4 style="position: absolute; font-family: 'Quicksand', sans-serif; margin-top: 265px;
-      margin-left: 170px; color: white; "> is Coming! </h4>
-     <a href="#down"> <button  class="button_activities" id="buttonId_activities"> Sign Up Right now! </button > </a>
-      
+  <!--========================================-->
+ 
+  <section  id="first"> 
+    <style>
+      #banner-img{
+        width: 50%; 
+        display: inline-block;
+      }
+      #banner-text{
+        display: inline-block; 
+        width: 49%; 
+        text-align: center; 
+        padding: auto;
+        position: relative;
+        /*top:3.3rem
+        overflow:none/hidden*/
+      }
+      #buttonId_activities:hover{
+        transition: 0.3s;
+        background-color: hsl(16deg 100% 80%);
+      }
+
+      @media screen and (max-width: 576px){
+        #banner-img{
+          width: 100%;
+        }
+        #banner-text{
+          padding-top: 2rem;
+          width: 100%;
+          padding-bottom: 2rem;
+        }
+        html{
+          font-size: 15px;
+        }
+        }
+
+        @media screen and (min-width: 1080px){
+        #banner-text{
+          top: 3.3rem;
+        }
         
-        <img src="assets/img/4.gif" alt="" style="border-radius: 15px; position: absolute; margin-left: 300px;" height="600" width="600" > 
-    </div>
-<div style="margin: 30px;">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nulla reiciendis error illum veniam ea fugiat, aliquam illo earum quas minima molestias magni, et voluptatem animi eligendi eveniet distinctio quia.
-  </div>
-      
-    <div id="down">
+        #buttonId_activities{
+          top: 10rem;
+        }
+      }
+     
 
-      It is down
-
-    </div>
+    </style>
+    <div class="container" style="  background-color: white; 
+    border-top-left-radius: 45px; 
+    border-top-right-radius: 45px; 
+    margin-top: 2rem; 
+    padding-top: 2rem; 
+    padding-bottom: 2rem;">
   
-</div> 
+      <div 
+      style="overflow: auto; 
+      background-color: #cb9cff;  
+      border-radius: 45px;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      
+      ">
+        
+            <img id="banner-img"  src="assets/img/4.gif" alt="" > 
+
+            <div id="banner-text">
+
+                <h2 style="font-family: 'Jost', sans-serif;
+                color: white;
+                font-size: 4rem;
+                  "> YOGA <br> FESTIVAL </h2 >
+                <h4 style="font-family: 'Jost', sans-serif;
+                color:white"> is Coming! </h4>
+              <a href="#down"> <button id="buttonId_activities"
+                style="background-color: hsl(16deg 100% 50%);
+                color: white;
+                border-radius: 15px;
+                padding:7px;"
+                > Sign Up Right now! </button > </a>   
+
+          </div>
+      </div>
+  
+  <div style="margin: 60px;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  
+    ">
+      <h4 > When you've completed this course, you'll have daily actions and reflections to help you remember who you are, why you're here and where you're headed.  </h4>
+  
+    </div> 
+
+    <div class="activities_container">
+      <div class="steps__card"> </div>
+        a
+
+      </div>
+      <div class="steps__card"> </div>
+        a
+
+      </div>
+      <div class="steps__card"> </div>
+        a
+
+      </div>
+    </div>
+
+    </div>
+  </section>
+
+  <div style="background-color: #F3F1F5;
+  padding: 40px; 
+  width: 100% ; 
+  margin: auto;
+  font-family: 'Jost', sans-serif;
+  text-align: center;">
+    <h4> “If you don’t love yourself, nobody will. Not only that, you won’t be good at loving anyone else. Loving starts with the self.”</h4>
+
+</div>
+
+<section id="part2">
+ <div class="container" style=" background-color: white; 
+ border-bottom-left-radius: 45px; 
+ border-bottom-right-radius: 45px; 
+ padding-top: 2rem; 
+ margin-bottom: 2rem; 
+ padding-bottom: 2rem;">
 
 
 
+  <div id="down">
 
+    It is down
+  
+  </div>
+</div>
+</section>
 </body>
 
           <!--==================== FOOTER ====================-->
