@@ -87,27 +87,76 @@
         background-color: hsl(16deg 100% 60%);
       }
 
+      .activities__container{
+        gap: 2rem;
+        padding-top: 1rem;
+        background-color: #F3F1F5;
+        border-radius: 45px;
+      }
+
+      .activities__grid{
+        display: grid;
+      }
+      .activities__card{
+        padding: 1rem;
+        text-align: center;
+      }
+
+      .activities__card:hover{
+        transition: 0.3s;
+        transform: translateY(-.50rem);
+      }
+      .activities__card-title{
+        font-size: var(--h3-font-size);
+        margin-top: 2rem;
+      }
+
+      .activities__card-description{
+        font-size: var(--small-font-size);
+      }
+
       @media screen and (max-width: 576px){
         #banner-img{
           width: 100%;
         }
+        
         #banner-text{
           padding-top: 2rem;
           width: 100%;
           padding-bottom: 2rem;
         }
+
+        .activities__container{
+         grid-template-columns: repeat(1, 1fr);
+          }
+
+        .activities__card{
+          padding: 1.5rem;
+
+           }
+        .container{
+          margin-right: auto;
+          margin-left: auto;
+        }
+
         html{
           font-size: 15px;
         }
+
+
         }
 
-        @media screen and (min-width: 1080px){
+        @media screen and (min-width: 992px){
         #banner-text{
           top: 3.3rem;
         }
         
         #buttonId_activities{
           top: 10rem;
+        }
+        
+        .activities__container{
+          grid-template-columns: repeat(3, 1fr);
         }
       }
      
@@ -143,25 +192,78 @@
             </div>
       </div>
   
-    <div style="margin: 60px;
+    <div style="margin: 60px; text-align: center;">
+      <h5 > 
+        Create healthy change through body, <br>mind and the spirit.  </h5>
+    </div> 
+
+    <!--<div class="activities__container container activities__grid">
+      <div class="activities__card" >
+          
+          <h3 class="activities__card-title">Yoga For Beginners</h3>
+          <p class="activities__card-description">
+              Whether you are young or old, overweight or fit, yoga is for everyone and this class is a good start. 
+          </p>
+      </div>
+
+      <div class="activities__card">
+          <h3 class="activities__card-title">Yin Yoga</h3>
+          <p class="activities__card-description">
+              Yin Yoga is a gentle and relaxing all-level class that works deeply into the lover body.
+          </p>
+      </div>
+
+      <div class="activities__card">
+          <h3 class="activities__card-title">Yoga for Pregnants</h3>
+          <p class="activities__card-description">
+              Prenatal yoga is a multifaceted approach to exercise that encourages stretching, mental centering and focused breathing.
+          </p>
+      </div>
+  </div> -->
+                      <!-- ----------------------GRIDS--------------------- -->
+  <div class="activities__container container activities__grid" style="border-bottom-left-radius: 0px; border-bottom-right-radius: 0px ;">
+      <div class="activities__card">
+        <img style="border-radius: 50%;" src="assets/img/logo1.jpg" alt=""> 
+        <h4 class="activities__card-title">Yin Yoga</h4>
+        <p class="activities__card-description">
+            Yin Yoga is a gentle and relaxing all-level class that works deeply into the lover body.
+        </p>
+        </div>
+        <div class="activities__card">
+          <img style="border-radius: 50%;" src="assets/img/logo2.jpg" alt=""> 
+          <h4 class="activities__card-title">Yin Yoga</h4>
+          <p class="activities__card-description">
+              Yin Yoga is a gentle and relaxing all-level class that works deeply into the lover body.
+          </p>
+          </div>
+          <div class="activities__card">
+            <img style="border-radius: 50%;" src="assets/img/logo3.jpg" alt=""> 
+            <h4 class="activities__card-title">Yin Yoga</h4>
+            <p class="activities__card-description">
+                Yin Yoga is a gentle and relaxing all-level class that works deeply into the lover body.
+            </p>
+            </div>
+             
+</div>
+<div  class="container" style="
   font-family: 'Roboto Condensed', sans-serif;
-  text-align: center;">
+  text-align: center;
+  background-color: #F3F1F5;
+  border-bottom-left-radius: 45px; 
+  border-bottom-right-radius: 45px; 
+  padding-top: 2rem; 
+  padding-bottom: 2rem;
+  ">
+  
+
+
       <h4 > When you've completed this course, you'll have daily actions and reflections to help you remember who you are, why you're here and where you're headed.  </h4>
     </div> 
 
-    <div class="container">
-      <div class="row_activities">
-        <div class="col-sm">
-          One of three columns
-        </div>
-        <div class="col-sm">
-          One of three columns
-        </div>
-        <div class="col-sm">
-          One of three columns
-        </div>
-      </div>
-    </div>
+
+
+
+
 
   </div>
     

@@ -500,9 +500,6 @@ the website, in dark theme
   padding: 2.5rem 3rem 2rem 1.5rem;
   border-radius: 1rem;
   text-align: center;
-  
-  
-
 }
 .steps__card:hover{
   background-color: #f3cba5;
@@ -960,6 +957,7 @@ the website, in dark theme
   .footer__subscribe{
     width: 400px;
   }
+
 }
 
 @media screen and (min-width: 767px){
