@@ -946,7 +946,7 @@ the website, in dark theme
 /* For medium devices */
 @media screen and (min-width: 576px){
   .steps__container{
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .product__description{
