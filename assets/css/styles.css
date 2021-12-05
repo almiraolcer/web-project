@@ -16,19 +16,33 @@
   background-color: #b1bdb69c;
 }
 /*=============== Our Team Page ===============*/
+#ourTeamBody{
+  background-color: #DEEDF0
+}
+.card{
+  border-radius: 12%; 
+  background-color:#A6D6D6;
+  border-color: #A6D6D6;
+}
 .OurTeamImg{
   height: 450px;
   width: 460px;
+  border-radius: 12%;
 }
 .MoreButton{
-  color:#583D72;
+  color:#597984;
+  background-color: transparent;
 }
 #backButton{
   border: transparent;
-  color:#583D72;
+  color:#597984;
+  border-radius: 50%;
 }
 #backButton:hover{
-  background-color:#c3b9cd;
+  background-color:#A1CAE2;
+  border-color:#A1CAE2 ;
+  border-radius: 25%;
+  <i class="fas fa-angle-double-left"></i>
 }
 
 /*=============== VARIABLES CSS ===============*/
