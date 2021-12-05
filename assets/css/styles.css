@@ -42,7 +42,24 @@
   background-color:#A1CAE2;
   border-color:#A1CAE2 ;
   border-radius: 25%;
-  <i class="fas fa-angle-double-left"></i>
+}
+
+#navbar-navigator-button{
+  width: 5rem; 
+  height: 2rem; justify-content: center; 
+  text-align: center;
+  padding: 0rem;
+  border-radius: 50%;
+  background-color: #bfcec5;
+}
+
+#navbar-navigator-button:hover{
+  width: 5rem; 
+  height: 2rem; justify-content: center; 
+  text-align: center;
+  padding: 0rem;
+  border-radius: 10%;
+  background-color: #98b5a5;
 }
 
 /*=============== VARIABLES CSS ===============*/
