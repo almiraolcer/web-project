@@ -12,6 +12,11 @@
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.navbar_p{
+  margin-bottom: 0.2rem;
+  display: inline-block;
+}
+
 #explore{
   background-color: #b1bdb69c;
 }
@@ -23,6 +28,7 @@
   border-radius: 12%; 
   background-color:#A6D6D6;
   border-color: #A6D6D6;
+
 }
 .OurTeamImg{
   height: 450px;
