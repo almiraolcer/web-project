@@ -519,9 +519,12 @@ the website, in dark theme
 .steps{
   margin: 0px;
 }
+.steps:hover{
+  color: #7e679a;
+}
 
 .steps__bg{
-  background-color: #8f79a3;
+  background-color: #c5becd;
   padding: 3rem 2rem 2rem;
   border-radius: 1rem;
 }
@@ -543,7 +546,7 @@ the website, in dark theme
   text-align: center;
 }
 .steps__card:hover{
-  background-color: #f3cba5;
+  background-color: #f2d8c0;
   transition: 0.3s;
   transform: translateY(-.50rem);
 }
