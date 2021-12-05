@@ -982,6 +982,7 @@ the website, in dark theme
     grid-template-columns: .6fr;
     justify-content: center;
   }
+
 }
 
 /* For medium devices */
@@ -1002,6 +1003,7 @@ the website, in dark theme
   .footer__subscribe{
     width: 400px;
   }
+
 }
 
 @media screen and (min-width: 767px){
