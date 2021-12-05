@@ -664,6 +664,7 @@ the website, in dark theme
 .questions__container{
   gap: 1.5rem;
   padding: 1.5rem 0;
+  
 }
 
 .questions__group{
@@ -1026,7 +1027,6 @@ the website, in dark theme
 
   .home__container,
   .about__container,
-  .questions__container,
   .contact__container,
   .footer__container{
     grid-template-columns: repeat(2, 1fr);
