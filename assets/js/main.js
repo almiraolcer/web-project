@@ -18,8 +18,6 @@ for (let i = 0; i < numBalls; i++) {
   balls.push(ball);
   document.body.append(ball);
 }
-
-// Keyframes
 balls.forEach((el, i, ra) => {
   let to = {
     x: Math.random() * (i % 2 === 0 ? -11 : 11),
